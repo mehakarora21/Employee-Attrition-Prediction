@@ -19,6 +19,7 @@ adopt correct balancing techniques for optimal results.
 - Identify the best-performing model and resampling combination using evaluation metrics.
 
 ---
+## 📊 Dataset
 
 - **Source**: [IBM HR Analytics Employee Attrition Dataset on Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 - **Size**: 1470 records × 35 features
@@ -31,7 +32,7 @@ adopt correct balancing techniques for optimal results.
 
 This project stands out by conducting a **comparative analysis of eight different resampling techniques**  to address class imbalance — a common challenge in HR analytics. Unlike many existing works that rely on a single balancing method or overlook imbalance entirely, this project systematically evaluates under-sampling, over-sampling, and hybrid approaches to determine the most effective strategy.
 
-The combination of **Random Forest** and **Random Oversampling** yielded exceptional results:
+The combination of **Random Forest** and **Random Oversampling** yielded exceptional results (as obtained after performing cross validation of the combination):
 - **Accuracy**: 98.18%
 - **AUC-ROC**: 99.99%
 
@@ -85,7 +86,7 @@ The combination of **Random Forest** and **Random Oversampling** yielded excepti
 
 - **Best Model**: Random Forest Classifier
 - **Best Resampling**: Random Over Sampling
-- **Performance**:
+- **Performance** (as obtained after performing cross validation for the combination):
   - Accuracy: **98.18%**
   - AUC-ROC: **99.99%**
 
